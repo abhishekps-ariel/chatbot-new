@@ -1,0 +1,407 @@
+[
+  {
+    "id": 81,
+    "category": "Rentals/Transactions - WCA",
+    "intent": "understanding_wca",
+    "question": "What is Work Completion Advice (WCA)?",
+    "answer": "Work Completion Advice (WCA) allows you to add line item charges to a rental transaction after the rental has started. It's commonly used to charge for Fuel Charges, Damage Fees, Engine Hours usage, and similar post-rental fees. For long-term transactions, WCA charges are applied to the next un-posted month's invoice and are not applied ongoing.",
+    "source": "Applying Work Completion Advice Documentation",
+    "video_link": "https://youtu.be/NQ1Wvsvjg38"
+  },
+  {
+    "id": 82,
+    "category": "Rentals/Transactions - WCA",
+    "intent": "wca_use_cases",
+    "question": "When should I use Work Completion Advice?",
+    "answer": "Use WCA to charge for additional fees after a rental has started, such as: Fuel Charges, Damage Fees, Engine Hours usage, or any other charges that weren't included in the original rental agreement. These charges appear as line items on the invoice.",
+    "source": "Applying Work Completion Advice Documentation",
+    "video_link": "https://youtu.be/NQ1Wvsvjg38"
+  },
+  {
+    "id": 83,
+    "category": "Rentals/Transactions - WCA",
+    "intent": "configuring_wca",
+    "question": "How do I configure WCA before using it?",
+    "answer": "Before using WCA in a rental, configure the WCA Number in the WCA Configuration screen: (1) Go to Settings Menu, (2) Click WCA configuration menu, (3) Configure the WCA Number and name, (4) Click Save. Once saved, you can use the WCA function in the Rental screen.",
+    "source": "Applying Work Completion Advice Documentation",
+    "video_link": "https://youtu.be/NQ1Wvsvjg38"
+  },
+  {
+    "id": 84,
+    "category": "Rentals/Transactions - WCA",
+    "intent": "applying_wca_charge",
+    "question": "How do I apply a WCA charge to a rental?",
+    "answer": "To apply a WCA charge: (1) Go to the WCA tab on the rental, (2) Enter description text for the fee/charge, (3) Specify quantity (e.g., 1.5hrs or 30 litres), (4) Specify the Income account and tax code, (5) Click the Save icon on the line, (6) Add additional lines if needed, (7) Click Save button below. Watch the tutorial video for visual guidance: https://youtu.be/NQ1Wvsvjg38",
+    "source": "Applying Work Completion Advice Documentation",
+    "video_link": "https://youtu.be/NQ1Wvsvjg38"
+  },
+  {
+    "id": 85,
+    "category": "Rentals/Transactions - WCA",
+    "intent": "wca_tracking",
+    "question": "How does Viberent track WCA charges?",
+    "answer": "Viberent allocates a WCA number for tracking purposes and allows you to add comments that relate to each WCA charge. The comments field is for internal tracking purposes only. Each WCA charge appears as a separate line item on the invoice.",
+    "source": "Applying Work Completion Advice Documentation",
+    "video_link": "https://youtu.be/NQ1Wvsvjg38"
+  },
+  {
+    "id": 86,
+    "category": "Rentals/Transactions - WCA",
+    "intent": "wca_long_term_rentals",
+    "question": "How does WCA work with long-term rentals?",
+    "answer": "For long-term transactions, WCA charges are applied to the next un-posted month's invoice. WCA charges are not applied on an ongoing basis - they are one-time charges added to the upcoming invoice period.",
+    "source": "Applying Work Completion Advice Documentation",
+    "video_link": "https://youtu.be/NQ1Wvsvjg38"
+  },
+  {
+    "id": 87,
+    "category": "Rentals/Transactions - WCA",
+    "intent": "wca_invoice_appearance",
+    "question": "How do WCA charges appear on invoices?",
+    "answer": "Each WCA charge appears as a separate line item on the invoice, showing the description, quantity, and charges you specified when creating the WCA entry.",
+    "source": "Applying Work Completion Advice Documentation",
+    "video_link": "https://youtu.be/NQ1Wvsvjg38"
+  },
+  {
+    "id": 88,
+    "category": "Rentals/Transactions - Creating",
+    "intent": "creating_new_rental",
+    "question": "How do I create a new rental in Viberent?",
+    "answer": "Create a new rental by selecting rental/invoice from the main transaction menu. The rental job card has two sections with a horizontal menu. Fill in mandatory fields (marked with red *): (1) Select customer by entering name or click Add New, (2) Change billing/delivery address if needed, (3) Specify rental items in Rental Items Details section, (4) Click Save. After saving, you can Email to customer, Post to accounting system, or use More Options to Print rental or delivery/return docket.",
+    "source": "Creating Rentals/Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 89,
+    "category": "Rentals/Transactions - Creating",
+    "intent": "rental_screen_layout",
+    "question": "What is the layout of a rental job card?",
+    "answer": "A rental job card is split into two sections with a horizontal menu to toggle between information. All mandatory fields are shown with a red asterisk (*) and must be entered to save the job.",
+    "source": "Creating Rentals/Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 90,
+    "category": "Rentals/Transactions - Creating",
+    "intent": "opening_existing_rental",
+    "question": "How do I edit or update an existing rental?",
+    "answer": "To open an existing rental, click the magnifying glass next to Rental Number. This opens a search window where you can search by name, address, reference number, etc. Once found, you can edit and update the rental details.",
+    "source": "Creating Rentals/Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 91,
+    "category": "Rentals/Transactions - Creating",
+    "intent": "rental_mandatory_fields",
+    "question": "What are the mandatory fields when creating a rental?",
+    "answer": "Mandatory fields are marked with a red asterisk (*). At minimum, you must: (1) Select a customer, (2) Specify rental items, and (3) Enter all required dates. Without these fields, you cannot save the rental.",
+    "source": "Creating Rentals/Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 92,
+    "category": "Rentals/Transactions - Creating",
+    "intent": "after_saving_rental",
+    "question": "What can I do after saving a rental?",
+    "answer": "After saving a rental, you can: Email it to the customer, Post it to your accounting system, use More Options dropdown to Print the rental, or Print/Email Delivery or Return docket.",
+    "source": "Creating Rentals/Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 93,
+    "category": "Rentals/Transactions - Roll Over",
+    "intent": "understanding_rollover",
+    "question": "What is the Roll Over function?",
+    "answer": "Viberent's Roll Over function allows you to roll a posted rental contract to a new contract with new pricing periods or additional items without canceling and restarting. This complies with PPSR Law in Australia and New Zealand, which requires new agreements when contracts change. Watch this video for details: https://youtu.be/LBMGQ5axO_w",
+    "source": "Roll Over Rental Contracts Documentation",
+    "video_link": "https://youtu.be/LBMGQ5axO_w"
+  },
+  {
+    "id": 94,
+    "category": "Rentals/Transactions - Roll Over",
+    "intent": "rollover_vs_extend",
+    "question": "When should I use Roll Over instead of Extend?",
+    "answer": "Use Roll Over when you need to change the original rental agreement (new pricing, additional items, etc.) - PPSR Law requires a new contract. Use Extension when the rental agreement stays the same and you only need to extend the end date. Roll Over creates a new contract; Extension modifies the existing one.",
+    "source": "Roll Over Rental Contracts Documentation",
+    "video_link": "https://youtu.be/LBMGQ5axO_w"
+  },
+  {
+    "id": 95,
+    "category": "Rentals/Transactions - Roll Over",
+    "intent": "ppsr_compliance",
+    "question": "Why does Viberent require a new contract for changes?",
+    "answer": "Viberent is built to comply with PPSR Law in Australia and New Zealand. PPSR Law states that if a rental contract has any changes to the original agreement (new pricing, additional items, etc.), it needs to be set up on a new rental agreement. The Roll Over function streamlines this legal requirement.",
+    "source": "Roll Over Rental Contracts Documentation",
+    "video_link": "https://youtu.be/LBMGQ5axO_w"
+  },
+  {
+    "id": 96,
+    "category": "Rentals/Transactions - Roll Over",
+    "intent": "performing_rollover",
+    "question": "How do I perform a Roll Over?",
+    "answer": "To perform a Roll Over: (1) Go to Rental screen, (2) Select the rental contract, (3) Click More Options dropdown at the bottom, (4) Select Roll Over. Viberent will create a new editable contract referencing the old contract number in the 'Rolled From' field. Tutorial video: https://youtu.be/LBMGQ5axO_w",
+    "source": "Roll Over Rental Contracts Documentation",
+    "video_link": "https://youtu.be/LBMGQ5axO_w"
+  },
+  {
+    "id": 97,
+    "category": "Rentals/Transactions - Roll Over",
+    "intent": "rolled_from_field",
+    "question": "What is the 'Rolled From' field?",
+    "answer": "When you perform a Roll Over, Viberent creates a new contract and populates the 'Rolled From' field with the original contract number. This maintains a clear audit trail showing which contract the new agreement was rolled over from.",
+    "source": "Roll Over Rental Contracts Documentation",
+    "video_link": "https://youtu.be/LBMGQ5axO_w"
+  },
+  {
+    "id": 98,
+    "category": "Rentals/Transactions - Extend",
+    "intent": "understanding_extension",
+    "question": "What is the Extend function for rentals?",
+    "answer": "The Extend function allows you to extend the end date of posted rental contracts without creating a new contract. You can only extend posted contracts. For un-posted contracts, simply update the end date directly or use the 'bulk update' button. Watch tutorial: https://youtu.be/8fUr_cEDijA",
+    "source": "Extend Rental Contracts Documentation",
+    "video_link": "https://youtu.be/8fUr_cEDijA"
+  },
+  {
+    "id": 99,
+    "category": "Rentals/Transactions - Extend",
+    "intent": "extend_posted_vs_unposted",
+    "question": "Can I extend un-posted rental contracts?",
+    "answer": "No, you can only extend posted rental contracts using the Extend function. If the contract is un-posted, you can simply open the contract and update the end date on each line item or in bulk using the 'bulk update' button.",
+    "source": "Extend Rental Contracts Documentation",
+    "video_link": "https://youtu.be/8fUr_cEDijA"
+  },
+  {
+    "id": 100,
+    "category": "Rentals/Transactions - Extend",
+    "intent": "performing_extension",
+    "question": "How do I extend a rental contract?",
+    "answer": "To extend a rental: (1) Open Rental screen, (2) Select the correct rental number, (3) Click More Options dropdown at the bottom, (4) Click 'Extend' text. A popup will ask if you want to extend the entire agreement or individual items. Tutorial: https://youtu.be/8fUr_cEDijA",
+    "source": "Extend Rental Contracts Documentation",
+    "video_link": "https://youtu.be/8fUr_cEDijA"
+  },
+  {
+    "id": 101,
+    "category": "Rentals/Transactions - Extend",
+    "intent": "item_wise_extension",
+    "question": "What is the difference between item wise and whole agreement extension?",
+    "answer": "Item wise extension: Update the end date of individual line items you want to extend. Whole agreement extension: Viberent updates the end date of all line items on the rental at once. Choose based on whether you need to extend everything or just specific items.",
+    "source": "Extend Rental Contracts Documentation",
+    "video_link": "https://youtu.be/8fUr_cEDijA"
+  },
+  {
+    "id": 102,
+    "category": "Rentals/Transactions - Extend",
+    "intent": "extension_invoice_creation",
+    "question": "What happens to invoices after extending a rental?",
+    "answer": "After extension, Viberent creates a new 'un-posted' invoice in the Invoice History tab and opens the posting screen for the extended items. This allows you to manage and post the invoice for the extended period.",
+    "source": "Extend Rental Contracts Documentation",
+    "video_link": "https://youtu.be/8fUr_cEDijA"
+  },
+  {
+    "id": 103,
+    "category": "Rentals/Transactions - Adding Items",
+    "intent": "adding_items_to_rental",
+    "question": "How do I add items to a rental?",
+    "answer": "Add items by typing the item code in the Item Code field or searching for the item by pressing the green plus (search) symbol. Viberent will show available quantity based on rental dates, rental type, and any minimum cost or periods configured in inventory management.",
+    "source": "Adding Items to Rental Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 104,
+    "category": "Rentals/Transactions - Adding Items",
+    "intent": "item_availability",
+    "question": "How does Viberent show item availability?",
+    "answer": "When you select an item, Viberent highlights the available quantity based on the rental dates and rental type, as well as any minimum cost or periods configured in inventory management. This prevents double booking.",
+    "source": "Adding Items to Rental Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 105,
+    "category": "Rentals/Transactions - Adding Items",
+    "intent": "serial_number_items",
+    "question": "How do serial number items work in rentals?",
+    "answer": "For serial number items, only available serial numbers will be listed in the serial number dropdown for selection. This ensures you can only assign serial numbers that are available during the rental period.",
+    "source": "Adding Items to Rental Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 106,
+    "category": "Rentals/Transactions - Adding Items",
+    "intent": "start_end_dates",
+    "question": "What is the difference between Start/End Date and Delivery/Return Date?",
+    "answer": "Start Date / End Date: Used to calculate the rental charge for the item. Delivery / Return Date: Defaults to Start/End Date values but does NOT affect the rate charged to customer. However, Delivery/Return dates DO affect item availability to prevent double booking.",
+    "source": "Adding Items to Rental Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 107,
+    "category": "Rentals/Transactions - Adding Items",
+    "intent": "delivery_return_dates",
+    "question": "Do Delivery and Return dates affect rental charges?",
+    "answer": "No, Delivery/Return Date fields do NOT affect the rate charged to the customer. However, they DO affect the availability of the item to ensure you cannot double book items. The Start/End dates are what determine the rental charges.",
+    "source": "Adding Items to Rental Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 108,
+    "category": "Rentals/Transactions - Adding Items",
+    "intent": "minimum_cost_periods",
+    "question": "What are minimum cost or periods in rental items?",
+    "answer": "Minimum cost or periods are configuration settings in inventory management that set the minimum charge or rental duration for specific items. When adding items to a rental, Viberent displays these configured minimums to ensure proper pricing.",
+    "source": "Adding Items to Rental Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 109,
+    "category": "Rentals/Transactions - Invoice Terms",
+    "intent": "customer_terms_rentals",
+    "question": "How do Customer Invoice Terms work in rentals?",
+    "answer": "Customer Invoice Terms are payment terms from your accounting system. When creating a new Rental or Invoice, the Payment Due Date is automatically calculated based on the Transaction Date and the selected customer's terms (e.g., Net 30 means 30 days from transaction date).",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 110,
+    "category": "Rentals/Transactions - Invoice Terms",
+    "intent": "loading_customer_terms_rentals",
+    "question": "How do I set up Customer Terms for rentals?",
+    "answer": "Customer Terms must be loaded from your accounting system using the Load Data screen by clicking 'Load Customer Invoice Terms'. Once loaded, they appear in the Contact Customer screen and automatically calculate payment due dates for new rentals and invoices.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 111,
+    "category": "Rentals/Transactions - Invoice Terms",
+    "intent": "payment_due_date_calculation",
+    "question": "How is the Payment Due Date calculated in rentals?",
+    "answer": "The Payment Due Date is automatically calculated based on the Transaction Date plus the customer's payment terms. For example, if terms are 'Net 30' and the transaction date is March 1st, the due date will be March 31st.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 112,
+    "category": "Rentals/Transactions - Invoice Terms",
+    "intent": "default_payment_terms_rentals",
+    "question": "What if I don't have customer terms configured in my ERP?",
+    "answer": "If no customer terms are configured in the ERP system, go to Viberent System's Company Configuration screen and specify the number of days for payment terms. This default will be used to automatically calculate Payment Due Dates for new Rentals and Invoices.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 113,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "understanding_long_term_rentals",
+    "question": "What are long-term rentals in Viberent?",
+    "answer": "Long-term rentals use periodic invoicing instead of a single invoice. You can set this up using the long term rental type dropdown in the top right corner of the rental screen. Options include Month-End, Monthly Subscribed, Weekly Subscribed, and 28 days Subscribed. Watch tutorial: https://youtu.be/m2bn8SkzTMU",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 114,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "periodic_invoicing_options",
+    "question": "What periodic invoicing options are available?",
+    "answer": "Viberent offers 4 options: (1) Month-End: Monthly invoices at the end of each calendar month, (2) Monthly Subscribed: Invoices based on a selected date each month, (3) Weekly Subscribed: Specify a weekday for weekly invoicing, (4) 28 days Subscribed: Invoices on a 28-day cycle. If you don't select long-term, Viberent generates a single invoice for the entire rental.",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 115,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "month_end_invoicing",
+    "question": "How does Month-End invoicing work?",
+    "answer": "Month-End generates monthly invoices for the rental duration, with invoicing scheduled at the end of each calendar month. For example, a rental starting March 10th would invoice March 10-31, then April 1-30, May 1-31, etc.",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 116,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "monthly_subscribed_invoicing",
+    "question": "What is Monthly Subscribed invoicing?",
+    "answer": "Monthly Subscribed creates monthly invoices based on a specific date you select. For example, if you choose the 15th, invoices will be generated on the 15th of each month during the rental period.",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 117,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "weekly_subscribed_invoicing",
+    "question": "How does Weekly Subscribed invoicing work?",
+    "answer": "With Weekly Subscribed, you specify a weekday (e.g., Monday) and Viberent processes invoices on that day every week for the duration of the rental.",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 118,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "28_day_invoicing",
+    "question": "What is 28 days Subscribed invoicing?",
+    "answer": "28 days Subscribed generates invoices on a 28-day cycle for the duration of the rental. This is useful for businesses that prefer consistent 4-week billing periods.",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 119,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "long_term_rental_example",
+    "question": "Can you give an example of long-term rental invoicing?",
+    "answer": "Example: 6-month rental from March 10 to September 10. With Month-End type: First invoice covers March 10-30, second invoice April 1-30, continuing monthly. Final invoice covers September 1-10. Without long-term type: One single invoice for the entire 6 months. Tutorial: https://youtu.be/m2bn8SkzTMU",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 120,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "no_end_date_rental",
+    "question": "How do I create an open-ended rental?",
+    "answer": "For open-ended rentals without a specific end date, simply select the 'No End Date' option for each line. Viberent will treat the rental as open-ended, continuing without a fixed end date.",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 121,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "continuous_invoice_posting",
+    "question": "How are long-term rentals identified in the posting screen?",
+    "answer": "Long-term rental transactions are identified in the Manage Posting Screen as a 'Continuous Invoice'. This distinguishes them from standard single-invoice rentals.",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 122,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "printing_period_invoices",
+    "question": "How do I print or email individual period invoices for long-term rentals?",
+    "answer": "To print or email individual periods: (1) Go to Invoice History, (2) Tick the required line/period, (3) Click Preview button. In the Preview screen, click Print or Email buttons for your required action.",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 123,
+    "category": "Rentals/Transactions - Long-Term",
+    "intent": "invoice_history_tab",
+    "question": "Where can I find all invoices for a long-term rental?",
+    "answer": "All invoices for a long-term rental are found in the Invoice History tab. You can view, preview, print, or email individual period invoices from this tab.",
+    "source": "Creating Long-Term Rentals Documentation",
+    "video_link": "https://youtu.be/m2bn8SkzTMU"
+  },
+  {
+    "id": 124,
+    "category": "Rentals/Transactions - General",
+    "intent": "rentals_overview",
+    "question": "What transaction management features does Viberent have for rentals?",
+    "answer": "Viberent offers comprehensive rental management including: Work Completion Advice for post-rental charges, rental creation and editing, Roll Over for contract changes, Extension for date changes, adding items with availability tracking, customer invoice terms integration, and long-term rentals with periodic invoicing options.",
+    "source": "Rentals/Transactions Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 125,
+    "category": "Rentals/Transactions - General",
+    "intent": "rental_vs_quote",
+    "question": "What is the difference between a rental and a quote?",
+    "answer": "A quote is a proposal for rental services, while a rental is the actual transaction. Quotes can be converted to rentals once accepted. Rentals track actual inventory usage, generate invoices, and post to your accounting system.",
+    "source": "Rentals/Transactions Documentation",
+    "video_link": ""
+  }
+]

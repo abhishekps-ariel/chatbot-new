@@ -1,0 +1,362 @@
+[
+  {
+    "id": 41,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "understanding_customer_terms",
+    "question": "What are Customer Invoice Terms?",
+    "answer": "Customer Invoice Terms are payment term values configured in your accounting system that determine when customer payments are due. These terms can be loaded into Viberent and used to automatically calculate Payment Due Dates for Rentals and Invoices.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 42,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "accessing_customer_terms",
+    "question": "Where can I find Customer Terms in Viberent?",
+    "answer": "Customer Terms can be found in the Contact Customer screen. There's an option labeled 'Customer Terms' which displays the term values configured in your accounting system.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 43,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "loading_customer_terms",
+    "question": "How do I load Customer Invoice Terms from my accounting system?",
+    "answer": "To load Customer Invoice Terms, go to the Load Data screen and click the 'Load Customer Invoice Terms' button. Once successfully loaded, the terms will appear when you open a customer record in the Contact Customer screen.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 44,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "terms_not_showing",
+    "question": "Customer Terms are not showing up. What should I do?",
+    "answer": "Customer Terms must first be loaded from your accounting system using the Load Data screen. Click the 'Load Customer Invoice Terms' button to import them. If terms still don't appear, ensure they are properly configured in your accounting system.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 45,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "updating_customer_terms",
+    "question": "Can I update Customer Terms in Viberent?",
+    "answer": "Yes, you can update Customer Terms directly in the Contact Customer screen. After updating, the changes can be posted back to your accounting system to keep everything synchronized.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 46,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "posting_terms_to_accounting",
+    "question": "How do I sync updated Customer Terms with my accounting system?",
+    "answer": "After updating Customer Terms in the Contact Customer screen, you can post the updated terms back to your accounting system. This ensures your payment terms are consistent between Viberent and your accounting software.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 47,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "payment_due_date_calculation",
+    "question": "How is the Payment Due Date calculated automatically?",
+    "answer": "When creating a new Rental or Invoice, the Payment Due Date is automatically calculated based on the Transaction Date and the selected customer's payment terms. For example, if terms are 'Net 30', the due date will be 30 days from the transaction date.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 48,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "terms_in_rental_invoice",
+    "question": "Do Customer Terms affect Rentals and Invoices?",
+    "answer": "Yes, when creating a new Rental or Invoice for a customer with configured terms, the Payment Due Date will be automatically calculated based on those terms and the Transaction Date. This saves time and ensures consistent payment terms.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 49,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "no_erp_terms_configured",
+    "question": "What if I don't have customer terms in my accounting system?",
+    "answer": "If no customer terms are configured in your ERP system, you can use the Company Configuration screen in Viberent. Specify the number of days for payment terms there, and the Payment Due Date will be automatically calculated based on those configured days.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 50,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "default_payment_terms",
+    "question": "How do I set default payment terms in Viberent?",
+    "answer": "Go to the Viberent System's Company Configuration screen and specify the number of days for the payment terms. This default will be used when creating Rentals or Invoices if no specific customer terms are configured in your ERP system.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 51,
+    "category": "Contact - Customer Invoice Terms",
+    "intent": "company_config_payment_days",
+    "question": "Where is the Company Configuration for payment terms?",
+    "answer": "The Company Configuration screen can be found in Viberent System settings. In this screen, you can specify the default number of days for payment terms that will apply when customer-specific terms aren't available from your accounting system.",
+    "source": "Customer Invoice Terms Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 52,
+    "category": "Contact - Create/Maintain Customer",
+    "intent": "creating_customer_overview",
+    "question": "How can I create a new customer in Viberent?",
+    "answer": "There are several ways to create customer details in Viberent: from the Quote screen, from the Rental screen, or from the Customer screen. All methods follow similar steps and allow you to create and sync customer information with your accounting system. For a step-by-step guide, watch this video: https://youtu.be/7Du7lRW0MBc",
+    "source": "Create/Maintain Customer Details Documentation",
+    "video_link": "https://youtu.be/7Du7lRW0MBc"
+  },
+  {
+    "id": 53,
+    "category": "Contact - Create/Maintain Customer",
+    "intent": "customer_creation_methods",
+    "question": "What are the different ways to create a customer?",
+    "answer": "You can create customer details in three ways: (1) From the Quote screen, (2) From the Rental screen, or (3) From the Customer screen. The steps are similar regardless of which option you choose.",
+    "source": "Create/Maintain Customer Details Documentation",
+    "video_link": "https://youtu.be/7Du7lRW0MBc"
+  },
+  {
+    "id": 54,
+    "category": "Contact - Create/Maintain Customer",
+    "intent": "customer_creation_steps",
+    "question": "What are the steps to create a new customer?",
+    "answer": "Follow these steps: (1) Navigate to Customer at the top, or open Quote/Rental screen, (2) Click 'Add New Customer' button, (3) Fill in required customer details, (4) Click 'Save' to save the record, (5) Click 'Post to [Accounting System]' button to sync with your accounting software (Xero, MYOB, or QBO).",
+    "source": "Create/Maintain Customer Details Documentation",
+    "video_link": "https://youtu.be/7Du7lRW0MBc"
+  },
+  {
+    "id": 55,
+    "category": "Contact - Create/Maintain Customer",
+    "intent": "add_new_customer_button",
+    "question": "Where is the Add New Customer button?",
+    "answer": "After navigating to the Customer screen, Quote screen, or Rental screen, you'll find the 'Add New Customer' button. Click it to open the customer creation form where you can enter the customer details.",
+    "source": "Create/Maintain Customer Details Documentation",
+    "video_link": "https://youtu.be/7Du7lRW0MBc"
+  },
+  {
+    "id": 56,
+    "category": "Contact - Create/Maintain Customer",
+    "intent": "saving_customer_details",
+    "question": "How do I save a new customer record?",
+    "answer": "After filling in all required customer details, click the 'Save' button to save the customer record in Viberent. You can then optionally post it to your accounting system.",
+    "source": "Create/Maintain Customer Details Documentation",
+    "video_link": "https://youtu.be/7Du7lRW0MBc"
+  },
+  {
+    "id": 57,
+    "category": "Contact - Create/Maintain Customer",
+    "intent": "posting_customer_to_accounting",
+    "question": "How do I sync a new customer with my accounting system?",
+    "answer": "After saving the customer record, click the 'Post to [Accounting System]' button (it will show your specific system like Xero, MYOB, or QBO). This syncs the customer information with your accounting software.",
+    "source": "Create/Maintain Customer Details Documentation",
+    "video_link": "https://youtu.be/7Du7lRW0MBc"
+  },
+  {
+    "id": 58,
+    "category": "Contact - Create/Maintain Customer",
+    "intent": "accounting_systems_supported",
+    "question": "What accounting systems can I sync customers with?",
+    "answer": "Viberent supports syncing customer data with major accounting systems including Xero, MYOB, and QuickBooks Online (QBO). The 'Post to [Accounting System]' button will display your connected accounting system.",
+    "source": "Create/Maintain Customer Details Documentation",
+    "video_link": "https://youtu.be/7Du7lRW0MBc"
+  },
+  {
+    "id": 59,
+    "category": "Contact - Create/Maintain Customer",
+    "intent": "customer_from_quote",
+    "question": "Can I create a customer while creating a quote?",
+    "answer": "Yes, you can create a new customer directly from the Quote screen. Click 'Add New Customer' while in the quote, fill in the details, save, and optionally post to your accounting system - all without leaving the quote workflow.",
+    "source": "Create/Maintain Customer Details Documentation",
+    "video_link": "https://youtu.be/7Du7lRW0MBc"
+  },
+  {
+    "id": 60,
+    "category": "Contact - Create/Maintain Customer",
+    "intent": "customer_from_rental",
+    "question": "Can I create a customer while creating a rental?",
+    "answer": "Yes, you can create a new customer directly from the Rental screen. This is convenient when you need to quickly add a new customer while processing a rental transaction.",
+    "source": "Create/Maintain Customer Details Documentation",
+    "video_link": "https://youtu.be/7Du7lRW0MBc"
+  },
+  {
+    "id": 61,
+    "category": "Contact - Create/Maintain Customer",
+    "intent": "video_tutorial_customer",
+    "question": "Is there a video showing how to create customers?",
+    "answer": "Yes! Watch this step-by-step video tutorial on creating and maintaining customer details: https://youtu.be/7Du7lRW0MBc",
+    "source": "Create/Maintain Customer Details Documentation",
+    "video_link": "https://youtu.be/7Du7lRW0MBc"
+  },
+  {
+    "id": 62,
+    "category": "Contact - Venues",
+    "intent": "understanding_venues",
+    "question": "What are Venues in Viberent?",
+    "answer": "Venues in Viberent allow you to create and manage common delivery locations. Specifically designed for businesses in Events Rentals, Audio Visual rentals, and similar industries, venues can be created once and reused multiple times when raising Quotes and Rentals.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 63,
+    "category": "Contact - Venues",
+    "intent": "venue_use_cases",
+    "question": "When should I use the Venues feature?",
+    "answer": "Use Venues if you frequently send equipment to the same locations. This is especially useful for Events Rentals, Audio Visual rentals, and other rental businesses that repeatedly deliver to common venues like event halls, conference centers, or stadiums.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 64,
+    "category": "Contact - Venues",
+    "intent": "enabling_venue_feature",
+    "question": "How do I enable the Venue feature in Viberent?",
+    "answer": "Go to User Setup Configuration screen, search and load user details. In the Contact section, tick the box titled 'Venue' and click Save at the bottom. Then logout and log back in to Viberent to see the Venue menu.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 65,
+    "category": "Contact - Venues",
+    "intent": "venue_menu_not_showing",
+    "question": "I don't see the Venue menu. What should I do?",
+    "answer": "The Venue feature must be enabled first. Go to User Setup Configuration screen, find the Contact section, tick the 'Venue' checkbox, save, then logout and log back in. The Venue menu should now appear under Customer.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 66,
+    "category": "Contact - Venues",
+    "intent": "accessing_venue_screen",
+    "question": "Where is the Venue screen located?",
+    "answer": "After enabling the Venue feature, go to the menu and select Customer - Venue. This will open the Venue management screen where you can create and manage venue details.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 67,
+    "category": "Contact - Venues",
+    "intent": "creating_new_venue",
+    "question": "How do I create a new venue?",
+    "answer": "Go to Customer - Venue menu and click the 'Add New Venue/Address' button. Fill in the venue details and click Save to save the information. You can also upload floor plans and photos in the Multimedia section.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 68,
+    "category": "Contact - Venues",
+    "intent": "venue_details_to_enter",
+    "question": "What information should I enter when creating a venue?",
+    "answer": "Enter details like venue name, address, contact information, and any other relevant details about the location. After saving, you can also upload additional materials like floor plans and photos in the Multimedia section.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 69,
+    "category": "Contact - Venues",
+    "intent": "venue_multimedia",
+    "question": "Can I upload floor plans and photos to a venue?",
+    "answer": "Yes! Once you create a venue, you can upload venue details such as floor plans, photos, and other files in the Multimedia section. This helps your team visualize the venue when planning deliveries.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 70,
+    "category": "Contact - Venues",
+    "intent": "using_venue_in_quotes",
+    "question": "How do I use a venue when creating a quote?",
+    "answer": "In the Quote screen, after selecting the customer, go to the Delivery Address section on the right side and select 'Choose Venue Address'. A popup will appear allowing you to search and select from your saved venues.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 71,
+    "category": "Contact - Venues",
+    "intent": "using_venue_in_rentals",
+    "question": "How do I use a venue when creating a rental?",
+    "answer": "In the Rental screen, after selecting the customer, select 'Choose Venue Address' from the Delivery Address section on the right side. You'll see a popup where you can search and select the desired venue from your list.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 72,
+    "category": "Contact - Venues",
+    "intent": "selecting_venue_from_list",
+    "question": "What if I have multiple venues listed?",
+    "answer": "When you click 'Choose Venue Address', a popup screen appears showing all available venues. You can search for a specific venue or browse the list. Select the desired venue and its details will be automatically filled in the delivery address.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 73,
+    "category": "Contact - Venues",
+    "intent": "venue_delivery_address",
+    "question": "Where is the Delivery Address section to choose a venue?",
+    "answer": "The Delivery Address section is located on the right side of both the Quote and Rental screens. After selecting a customer, you'll find the 'Choose Venue Address' option in this section.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 74,
+    "category": "Contact - Venues",
+    "intent": "updating_existing_venue",
+    "question": "How do I update an existing venue?",
+    "answer": "Go to Customer - Venue screen, search for the venue or select it from the list, then double-click to open it. You can then update the venue details and save your changes.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 75,
+    "category": "Contact - Venues",
+    "intent": "searching_venues",
+    "question": "How do I find a specific venue to edit?",
+    "answer": "In the Customer - Venue screen, you can either use the search function to find a specific venue, or browse the list of venues and double-click on the one you want to update.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 76,
+    "category": "Contact - Venues",
+    "intent": "venue_reusability",
+    "question": "Can I reuse the same venue for multiple quotes and rentals?",
+    "answer": "Yes! That's the main benefit of the Venues feature. Create a venue once and use it multiple times across different quotes and rentals. This saves time and ensures consistent delivery address information.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 77,
+    "category": "Contact - Venues",
+    "intent": "venue_benefits",
+    "question": "What are the benefits of using Venues?",
+    "answer": "Venues save time by eliminating repetitive data entry, ensure consistent delivery information, allow you to attach floor plans and photos for reference, and are especially useful for businesses that frequently deliver to the same locations.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 78,
+    "category": "Contact - Venues",
+    "intent": "venue_popup_details",
+    "question": "What happens when I select a venue from the popup?",
+    "answer": "When you select a venue from the popup, its complete details (address, contact information, etc.) are automatically populated in the delivery address section of your Quote or Rental, saving you from manual entry.",
+    "source": "Venues - Create and Manage Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 79,
+    "category": "Contact - General",
+    "intent": "contact_overview",
+    "question": "What contact management features does Viberent have?",
+    "answer": "Viberent offers comprehensive contact management including Customer Invoice Terms (payment terms integration), Create/Maintain Customer Details (customer creation and syncing), and Venues (managing common delivery locations for events and rentals).",
+    "source": "Contact Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 80,
+    "category": "Contact - General",
+    "intent": "accounting_integration",
+    "question": "Does Viberent integrate with accounting systems for customer data?",
+    "answer": "Yes, Viberent integrates with Xero, MYOB, and QuickBooks Online. You can load customer payment terms from your accounting system, create customers in Viberent, and post them back to your accounting software to keep everything synchronized.",
+    "source": "Contact Documentation",
+    "video_link": ""
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "category": "Calendar - Task Calendar",
+    "intent": "understanding_task_calendar",
+    "question": "What is the Task Calendar?",
+    "answer": "The Task Calendar shows only the tasks created in Viberent, not other things like rental transactions or service transactions. It displays tasks allocated in the system and can be accessed via Dashboard - Task Calendar menu.",
+    "source": "Task Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 2,
+    "category": "Calendar - Task Calendar",
+    "intent": "accessing_task_calendar",
+    "question": "How do I access the Task Calendar?",
+    "answer": "You can access the Task Calendar screen via Dashboard - Task Calendar menu. If you don't see this menu, it needs to be enabled in the User Setup Configuration screen.",
+    "source": "Task Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 3,
+    "category": "Calendar - Task Calendar",
+    "intent": "enabling_task_calendar_menu",
+    "question": "The Task Calendar menu is not showing. How do I enable it?",
+    "answer": "If the Task Calendar menu is not visible, you need to enable it in the User Setup Configuration screen. You can do this yourself or ask your Viberent administrator to enable it for you.",
+    "source": "Task Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 4,
+    "category": "Calendar - Task Calendar",
+    "intent": "creating_new_task",
+    "question": "How do I create a new task in the Task Calendar?",
+    "answer": "To create a new task, click the + icon in the Task Calendar screen. You can view existing tasks and click the ... icon on them to view or update task details.",
+    "source": "Task Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 5,
+    "category": "Calendar - Task Calendar",
+    "intent": "viewing_editing_tasks",
+    "question": "How can I view or edit existing tasks?",
+    "answer": "Click the ... (three dots) icon on existing tasks in the Task Calendar to view or update task details.",
+    "source": "Task Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 6,
+    "category": "Calendar - Task Calendar",
+    "intent": "filtering_tasks",
+    "question": "Can I filter tasks by customers or staff?",
+    "answer": "Yes, you can filter tasks for customers, staff, and other criteria by clicking the Search Type dropdown in the Task Calendar screen.",
+    "source": "Task Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 7,
+    "category": "Calendar - Task Calendar",
+    "intent": "filtering_by_location",
+    "question": "Can I filter tasks by warehouse location?",
+    "answer": "Yes, for businesses with multiple warehouse locations, tasks can be filtered for specific locations, similar to the Transaction Calendar screen.",
+    "source": "Task Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 8,
+    "category": "Calendar - Task Calendar",
+    "intent": "task_calendar_vs_other_screens",
+    "question": "What's the difference between Task Calendar and other calendar screens?",
+    "answer": "The Task Calendar shows ONLY tasks created in Viberent. It does not display rental transactions, service transactions, or other calendar items. It's specifically designed for task management.",
+    "source": "Task Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 9,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "understanding_rental_tasks",
+    "question": "Can I create tasks on rental transactions?",
+    "answer": "Yes, you can assign tasks for staff based on individual item lines on the rental transaction screen. This is useful for industries where equipment is assigned to rental jobs along with people who need to be scheduled.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 10,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "when_to_assign_tasks",
+    "question": "When can I start assigning tasks on a rental?",
+    "answer": "You can start assigning tasks on the rental screen after a rental transaction is created and saved. After saving, a purple + icon will appear on each line.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 11,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "understanding_task_icons",
+    "question": "What do the different colored + icons mean on rental lines?",
+    "answer": "A purple + icon means no task has been assigned to that rental line yet. A green + icon indicates that a task has already been assigned to that line.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 12,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "creating_task_from_rental",
+    "question": "How do I create a task from a rental line?",
+    "answer": "Click the purple + icon on the rental line to create a new task, or click the green + icon to edit an existing task. This will open the Task popup screen.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 13,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "assigning_staff_to_task",
+    "question": "How do I assign a task to staff or customers?",
+    "answer": "In the Task popup screen, you can assign tasks to either Delivery or Return parts of the rental line. Specify the task start date, end date, duration (defaults to rental line values), and task description (defaults to item name).",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 14,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "delivery_vs_return_tasks",
+    "question": "What's the difference between Delivery and Return tasks?",
+    "answer": "When creating a task, you can specify whether it's for the Delivery part (when equipment is delivered to customer) or Return part (when equipment is returned from customer) of the rental line.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 15,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "task_default_values",
+    "question": "What values are automatically filled when creating a task?",
+    "answer": "When creating a task from a rental line, the task duration defaults to values specified in the rental line, and the task description defaults to the item name. You can modify these values as needed.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 16,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "generic_tasks",
+    "question": "Can I create tasks that don't involve staff?",
+    "answer": "Yes, you can create generic tasks that may or may not involve staff. For example, you can create a task like 'request forklift' that appears on the calendar. If staff is involved, you can include their details.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 17,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "task_templates",
+    "question": "What are Task Templates?",
+    "answer": "Task Templates are pre-configured tasks that can be reused multiple times. They can have staff already allocated and other details pre-populated, making it faster to assign standard tasks to rental lines.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 18,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "using_task_templates",
+    "question": "How do I use Task Templates?",
+    "answer": "In the Task popup screen, you can select a Task Template to automatically populate the task with standard details including pre-allocated staff. This is useful for recurring task types in your workflow.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 19,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "task_scheduling_use_case",
+    "question": "Why would I assign tasks to rental lines?",
+    "answer": "In certain industries, it's common for equipment to be assigned to rental jobs along with people who need to be scheduled. Task assignment on rental lines helps you manage both equipment and staff scheduling together using the Resource Calendar.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 20,
+    "category": "Calendar - Resource Calendar",
+    "intent": "understanding_resource_calendar",
+    "question": "What is the Resource Calendar?",
+    "answer": "The Resource Calendar is used to manage your company's internal resources such as staff and contractors, and assign them to various jobs and tasks raised as rental transactions in Viberent.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 21,
+    "category": "Calendar - Resource Calendar",
+    "intent": "accessing_resource_calendar",
+    "question": "How do I access the Resource Calendar?",
+    "answer": "Go to Dashboard - Resource Calendar menu. If this menu is not visible, you can enable it using Settings - User Setup Configuration screen, or ask your Viberent administrator to enable it.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 22,
+    "category": "Calendar - Resource Calendar",
+    "intent": "enabling_resource_calendar",
+    "question": "The Resource Calendar menu is not showing. What should I do?",
+    "answer": "Enable the Resource Calendar menu in Settings - User Setup Configuration screen. If you don't have access to this setting, ask your Viberent administrator to enable it for you.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 23,
+    "category": "Calendar - Resource Calendar",
+    "intent": "viewing_tasks_on_resource_calendar",
+    "question": "What tasks appear on the Resource Calendar?",
+    "answer": "When tasks are created in the Rental Transaction screen and allocated to staff, these tasks will be visible on the Resource Calendar. It shows all staff assignments and job allocations.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 24,
+    "category": "Calendar - Resource Calendar",
+    "intent": "calendar_date_range",
+    "question": "What date range does the Resource Calendar show?",
+    "answer": "The Resource Calendar shows details for 14 days from the current date. You can use the < and > buttons to navigate to previous and next periods respectively.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 25,
+    "category": "Calendar - Resource Calendar",
+    "intent": "navigating_calendar",
+    "question": "How do I navigate to different time periods in Resource Calendar?",
+    "answer": "Use the < button to view previous periods and the > button to view next periods. The calendar displays 14 days at a time.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 26,
+    "category": "Calendar - Resource Calendar",
+    "intent": "calendar_layout",
+    "question": "How is the Resource Calendar screen organized?",
+    "answer": "The screen lists Job details on the left top and a list of Staff below this. The calendar grid shows dates where you can allocate jobs and staff.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 27,
+    "category": "Calendar - Resource Calendar",
+    "intent": "assigning_jobs_to_dates",
+    "question": "How do I assign a job to a specific date?",
+    "answer": "Simply drag and drop the Job from the left side to a date on the calendar. The job will be allocated for that date and time period.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 28,
+    "category": "Calendar - Resource Calendar",
+    "intent": "assigning_staff_to_jobs",
+    "question": "How do I assign staff to jobs on the calendar?",
+    "answer": "Drag and drop Staff from the staff list to the jobs already placed on the calendar. You can assign multiple staff members to the same job with different time slots.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 29,
+    "category": "Calendar - Resource Calendar",
+    "intent": "scheduling_multiple_staff",
+    "question": "Can I assign multiple staff to the same job?",
+    "answer": "Yes, you can assign multiple staff members to the same job with different or overlapping time slots. For example, one staff member can work 11am-12noon while another works 12noon-2pm on the same job.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 30,
+    "category": "Calendar - Resource Calendar",
+    "intent": "drag_drop_functionality",
+    "question": "What is the drag and drop feature in Resource Calendar?",
+    "answer": "The Resource Calendar uses drag and drop to allocate jobs and staff. You can drag jobs to specific dates and times, and drag staff members to jobs to create assignments. This makes scheduling quick and visual.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 31,
+    "category": "Calendar - Resource Calendar",
+    "intent": "time_allocation_example",
+    "question": "Can you give an example of staff scheduling on Resource Calendar?",
+    "answer": "Sure! You can allocate a job for Jan 12 from 11am-2pm, then assign Staff Fred to work 11am-12noon and Staff Mary to work 12noon-2pm. Each staff member can have their own time slot within the job duration.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 32,
+    "category": "Calendar - Resource Calendar",
+    "intent": "resource_management_purpose",
+    "question": "What types of resources can I manage with Resource Calendar?",
+    "answer": "You can manage internal resources such as staff, contractors, and other personnel. The calendar helps you assign these resources to various jobs and tasks raised as rental transactions.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 33,
+    "category": "Calendar - General",
+    "intent": "calendar_overview",
+    "question": "What calendar features does Viberent have?",
+    "answer": "Viberent has three main calendar features: Task Calendar (for viewing and managing tasks), Creating Tasks on Rental Transactions (for assigning tasks to rental lines), and Resource Calendar (for scheduling staff and resources to jobs).",
+    "source": "Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 34,
+    "category": "Calendar - General",
+    "intent": "calendar_integration",
+    "question": "How do the different calendars work together?",
+    "answer": "Tasks created on Rental Transaction screens appear in both the Task Calendar and Resource Calendar. The Task Calendar shows all tasks, while the Resource Calendar focuses on staff and resource allocation to those tasks.",
+    "source": "Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 35,
+    "category": "Calendar - Task Calendar",
+    "intent": "task_visibility",
+    "question": "Will rental transactions show up in Task Calendar?",
+    "answer": "No, the Task Calendar shows ONLY tasks created in Viberent. It does not display rental transactions, service transactions, or other calendar items. For resource scheduling including rentals, use the Resource Calendar.",
+    "source": "Task Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 36,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "task_per_line",
+    "question": "Can I create multiple tasks for one rental?",
+    "answer": "Yes, you can create tasks for each individual item line on a rental transaction. Each line has its own + icon, allowing you to assign separate tasks and staff to different items in the same rental.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 37,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "editing_existing_task",
+    "question": "How do I modify a task that's already been created on a rental line?",
+    "answer": "Click the green + icon on the rental line that has an existing task. This will open the Task popup screen where you can edit the task details, staff assignments, dates, and duration.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 38,
+    "category": "Calendar - Resource Calendar",
+    "intent": "job_duration_scheduling",
+    "question": "Can I schedule jobs for specific time durations?",
+    "answer": "Yes, when you allocate a job to the Resource Calendar, you can specify the exact time duration (e.g., 11am-2pm). Staff can then be assigned to work during specific portions of that duration.",
+    "source": "Resource Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 39,
+    "category": "Calendar - General",
+    "intent": "user_permissions",
+    "question": "I don't see the calendar menus. How do I get access?",
+    "answer": "Calendar menus (Task Calendar and Resource Calendar) need to be enabled in the User Setup Configuration screen. Contact your Viberent administrator to enable these menus for your user account.",
+    "source": "Calendar Documentation",
+    "video_link": ""
+  },
+  {
+    "id": 40,
+    "category": "Calendar - Creating Tasks on Rental",
+    "intent": "task_description",
+    "question": "What should I put in the task description?",
+    "answer": "The task description defaults to the item name from the rental line, but you can modify it to be more specific. For example, you could add delivery instructions, special requirements, or location details.",
+    "source": "Creating Tasks on Rental Transaction Documentation",
+    "video_link": ""
+  }
+]
