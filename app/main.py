@@ -33,6 +33,11 @@ app.include_router(chat.router)
 @app.on_event("startup")
 async def startup_event():
     """Initialize database on startup."""
+    s = get_settings()
+    db_host = s.postgres_host if not s.database_url else "(from DATABASE_URL)"
+    print(f"Connecting to database at: {db_host}")
+    if db_host == "localhost":
+        print("WARNING: POSTGRES_HOST is localhost. On Render, set POSTGRES_HOST=54.172.110.96 (and other POSTGRES_* vars) in Environment.")
     print("Initializing database...")
     init_db()
     print("Database initialized successfully!")
