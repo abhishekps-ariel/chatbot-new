@@ -1,0 +1,30 @@
+# Render Blueprint: AI ChatBot API
+# Uses your existing PostgreSQL (set POSTGRES_PASSWORD in Render dashboard)
+# Docs: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: chatbot-api
+    runtime: python
+
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+
+    envVars:
+      - key: POSTGRES_HOST
+        value: 54.172.110.96
+      - key: POSTGRES_PORT
+        value: 5432
+      - key: POSTGRES_DB
+        value: ChatFilir
+      - key: POSTGRES_USER
+        value: postgres
+      - key: POSTGRES_PASSWORD
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: OPENAI_EMBEDDING_MODEL
+        value: text-embedding-3-small

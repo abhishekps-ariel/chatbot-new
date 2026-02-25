@@ -129,6 +129,27 @@ curl -X POST "http://localhost:8002/chat/" \
   -d '{"question": "Your question here?"}'
 ```
 
+## Deploy on Render
+
+1. **Push your code** to GitHub (this repo).
+
+2. **Create a Render account** at [render.com](https://render.com) and connect your GitHub repository.
+
+3. **New Blueprint**  
+   In the Render dashboard, click **New** → **Blueprint**. Select this repo; Render will detect `render.yaml` and create:
+   - A **Web Service** (chatbot-api)
+   - A **PostgreSQL** database (chatbot-db) with `DATABASE_URL` linked to the service
+
+4. **Set environment variables** for the web service (in Dashboard → your service → Environment):
+   - **OPENAI_API_KEY** – your OpenAI API key (required)
+   - **FRONTEND_URL** – your frontend origin for CORS (e.g. `https://your-app.onrender.com` or your Vite/React URL)
+
+5. **Deploy**  
+   Render will build and deploy. Your API will be at `https://chatbot-api-xxxx.onrender.com`.  
+   Use **/docs** for Swagger (e.g. `https://chatbot-api-xxxx.onrender.com/docs`).
+
+6. **Ingest documents** after the first deploy by calling `POST /ingest/` with your files, or run a one-off script locally that points to the deployed API URL.
+
 ## Cost
 
 - **Chat**: $0.15/1M input tokens, $0.60/1M output tokens (gpt-4o-mini)
