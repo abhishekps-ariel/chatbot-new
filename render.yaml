@@ -1,18 +1,14 @@
-# Render Blueprint: AI ChatBot API
-# Uses your existing PostgreSQL (set POSTGRES_PASSWORD in Render dashboard)
-# Pin Python 3.11 so pydantic/numpy build with pre-built wheels (3.14 would build from source and fail).
+# Render Blueprint: AI ChatBot API (Docker deploy, same pattern as FILIR_ChatBot)
+# Uses your existing PostgreSQL — set POSTGRES_PASSWORD, OPENAI_API_KEY, FRONTEND_URL in dashboard.
 # Docs: https://render.com/docs/blueprint-spec
 services:
   - type: web
     name: chatbot-api
-    runtime: python
+    runtime: docker
 
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    # If your repo root is the parent of ChatbotPython, set rootDir in Render dashboard to: ChatbotPython
 
     envVars:
-      - key: PYTHON_VERSION
-        value: "3.11.9"
       - key: POSTGRES_HOST
         value: 54.172.110.96
       - key: POSTGRES_PORT
