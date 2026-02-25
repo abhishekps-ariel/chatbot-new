@@ -1,5 +1,6 @@
 # Render Blueprint: AI ChatBot API
 # Uses your existing PostgreSQL (set POSTGRES_PASSWORD in Render dashboard)
+# Pin Python 3.11 so pydantic/numpy build with pre-built wheels (3.14 would build from source and fail).
 # Docs: https://render.com/docs/blueprint-spec
 services:
   - type: web
@@ -10,6 +11,8 @@ services:
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
 
     envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
       - key: POSTGRES_HOST
         value: 54.172.110.96
       - key: POSTGRES_PORT
